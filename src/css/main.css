@@ -1,0 +1,36 @@
+:root {
+  --spotify-green: rgb(28,176,74);
+  --spotify-green-light: rgb(29,209,85);
+  --white: rgb(255,255,255);
+}
+
+
+/* body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 70vh;
+  max-width: 1280px;
+  width: 100%;
+} */
+
+#root {
+  margin: 0 0;
+  padding: 5% 0;
+  width: 100%;
+  background-color: var(--spotify-green-light)
+}
+
+h1 {
+  margin: 0 auto 5% auto;
+  font-size: 10vw;
+}
+
+.main {
+  color: var(--white);
+  text-align: center;
+}
+
+.active {
+  background-color: dodgerblue;
+}
