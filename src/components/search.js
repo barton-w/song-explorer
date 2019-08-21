@@ -25,16 +25,16 @@ export default function Search() {
       })
       .catch(error => console.log(error))
     } else {
-      if (searchType === "lyrics") {
-        let search = formSong
-        search.replace(/'|\(|\)|"/g, "")
-        setSong(search)
-      }
+      // if (searchType === "lyrics") {
+      //   let search = formSong
+      //   search.replace(/'|\(|\)|"/g, "")
+      //   setSong(search)
+      // }
       fetch(base_url + endpoint + formSong)
       .then(response => response.json())
       .then((json) => {
-        setSongResults(json)
         setLoading(false)
+        setSongResults(json)
       })
       .catch(error => console.log(error))
     }
