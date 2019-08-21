@@ -16,7 +16,6 @@ export default function Search() {
     .then(response => response.json())
     .then(json => setSongResults(json))
     .catch(error => console.log(error))
-    setSong("")
   }
   return (
     <div className="search">
@@ -25,7 +24,7 @@ export default function Search() {
           searchType === "song" ?
           "active" : "inactive"
         }
-        className="waves-effect waves-light btn-large"
+        className="waves-effect waves-light btn-large song-search-button"
         onClick={() => {
           setSearchType("song")
           setEndpoint("/tracks/search?track=")
@@ -36,15 +35,15 @@ export default function Search() {
           searchType === "lyrics" ?
           "active" : "inactive"
         }
-        className="waves-effect waves-light btn-large"
+        className="waves-effect waves-light btn-large lyrics-search-button"
         onClick={() => {
           setSearchType("lyrics")
           setEndpoint("/tracks/lyrics?lyrics=")
         }}
         >Lyrics</button>
-      <form className="col s12" onSubmit={handleSubmit}>
+      <form id="search-form" className="col s12" onSubmit={handleSubmit}>
         <div className="row">
-          <div className="input-field col s12">
+          <div className="input-field col s8 offset-s2">
             <input
               id="song"
               type="text"
@@ -53,12 +52,13 @@ export default function Search() {
               placeholder={
                 searchType === "song" ?
                 "Song Title"
-                : "Lyrics from a song (ex. Imagine there's no heaven)"
+                : "Lyrics from a song"
               }
             />
           </div>
         </div>
         <input
+          id="search-button"
           className="waves-effect waves-light btn-large"
           type="submit"
           value="Search"/>

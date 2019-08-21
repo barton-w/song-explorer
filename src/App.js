@@ -14,7 +14,13 @@ export default function App() {
   }, [])
   return (
     <div className="container main">
-      <h1>Song Features</h1>
+      <div className="powered">
+        <p id="powered-by">Powered by</p>
+        <div id="spotify-logo"></div>
+        <div id="genius-logo"></div>
+      </div>
+      <h1>Song Explorer</h1>
+      <h6>Search by song or lyrics and discover song-data like key, tempo, danceability, energy, and more</h6>
       <Search />
     </div>
   );
