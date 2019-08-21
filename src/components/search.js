@@ -51,7 +51,7 @@ export default function Search() {
               onChange={handleChange}
               placeholder={
                 searchType === "song" ?
-                "Song Title"
+                "Song or Artist"
                 : "Lyrics from a song"
               }
             />
