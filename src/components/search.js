@@ -43,7 +43,7 @@ export default function Search() {
         >Lyrics</button>
       <form id="search-form" className="col s12" onSubmit={handleSubmit}>
         <div className="row">
-          <div className="input-field col s8 offset-s2">
+          <div className="input-field col s12">
             <input
               id="song"
               type="text"
