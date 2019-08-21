@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/song-explorer/static/css/main.64bb8755.chunk.css",
-    "main.js": "/song-explorer/static/js/main.74718e02.chunk.js",
-    "main.js.map": "/song-explorer/static/js/main.74718e02.chunk.js.map",
+    "main.css": "/song-explorer/static/css/main.d02da849.chunk.css",
+    "main.js": "/song-explorer/static/js/main.346ab40e.chunk.js",
+    "main.js.map": "/song-explorer/static/js/main.346ab40e.chunk.js.map",
     "runtime~main.js": "/song-explorer/static/js/runtime~main.66190786.js",
     "runtime~main.js.map": "/song-explorer/static/js/runtime~main.66190786.js.map",
     "static/js/2.28cdb552.chunk.js": "/song-explorer/static/js/2.28cdb552.chunk.js",
     "static/js/2.28cdb552.chunk.js.map": "/song-explorer/static/js/2.28cdb552.chunk.js.map",
     "index.html": "/song-explorer/index.html",
-    "precache-manifest.ab0108b01f80fb7a8851e6a2813cc864.js": "/song-explorer/precache-manifest.ab0108b01f80fb7a8851e6a2813cc864.js",
+    "precache-manifest.ff0b7195db8a69474e0d3d3c6b0e76b6.js": "/song-explorer/precache-manifest.ff0b7195db8a69474e0d3d3c6b0e76b6.js",
     "service-worker.js": "/song-explorer/service-worker.js",
-    "static/css/main.64bb8755.chunk.css.map": "/song-explorer/static/css/main.64bb8755.chunk.css.map",
+    "static/css/main.d02da849.chunk.css.map": "/song-explorer/static/css/main.d02da849.chunk.css.map",
     "static/media/main.css": "/song-explorer/static/media/spotify-button.248a0a95.png"
   }
 }
