@@ -7,22 +7,30 @@ export default function Search() {
   const [songResults, setSongResults] = useState({})
   const [searchType, setSearchType] = useState("song")
   const [endpoint, setEndpoint] = useState("/tracks/search?track=")
+  const [loading, setLoading] = useState(false)
   const handleChange = (event) => {
     setSong(event.target.value)
   }
   const handleSubmit = (event) => {
     event.preventDefault()
+    setLoading(true)
     //Set default if no form input
     if (formSong === "") {
       setSong("amzy")
       fetch(base_url + endpoint + "amzy")
       .then(response => response.json())
-      .then(json => setSongResults(json))
+      .then((json) => {
+        setSongResults(json)
+        setLoading(false)
+      })
       .catch(error => console.log(error))
     } else {
       fetch(base_url + endpoint + formSong)
       .then(response => response.json())
-      .then(json => setSongResults(json))
+      .then((json) => {
+        setSongResults(json)
+        setLoading(false)
+      })
       .catch(error => console.log(error))
     }
   }
@@ -72,6 +80,21 @@ export default function Search() {
           type="submit"
           value="Search"/>
       </form>
+      {
+        loading ?
+        <div id="loader" className="preloader-wrapper big active">
+          <div className="spinner-layer spinner-green-only">
+            <div className="circle-clipper left">
+              <div className="circle"></div>
+            </div><div className="gap-patch">
+              <div className="circle"></div>
+            </div><div className="circle-clipper right">
+              <div className="circle"></div>
+            </div>
+          </div>
+        </div>
+        : null
+      }
       {
         typeof songResults.tracks !== "undefined" && songResults.tracks.length > 0 ?
         <SongResults

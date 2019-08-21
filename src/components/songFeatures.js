@@ -5,6 +5,7 @@ export default function SongFeatures(props) {
   const [loading, setLoading] = useState(true)
   const [songFeatures, setSongFeatures] = useState({})
   useEffect(() => {
+    setLoading(true)
     fetch(base_url + "/tracks/features?id=" + props.id)
     .then(response => response.json())
     .then((json) => {
@@ -17,7 +18,17 @@ export default function SongFeatures(props) {
     <div className="song-features">
       {
         loading ?
-        <h2>LOADING</h2>
+        <div id="loader" className="preloader-wrapper big active">
+          <div className="spinner-layer spinner-green-only">
+            <div className="circle-clipper left">
+              <div className="circle"></div>
+            </div><div className="gap-patch">
+              <div className="circle"></div>
+            </div><div className="circle-clipper right">
+              <div className="circle"></div>
+            </div>
+          </div>
+        </div>
         :
         <div className="song-features-detail">
           <table className="striped">
