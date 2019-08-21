@@ -25,6 +25,11 @@ export default function Search() {
       })
       .catch(error => console.log(error))
     } else {
+      if (searchType === "lyrics") {
+        let search = formSong
+        search.replace(/'|\(|\)|"/g, "")
+        setSong(search)
+      }
       fetch(base_url + endpoint + formSong)
       .then(response => response.json())
       .then((json) => {
