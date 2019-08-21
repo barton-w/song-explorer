@@ -24,7 +24,7 @@ body {
 }
 
 .powered {
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 1%;
   text-align: left;
@@ -41,7 +41,7 @@ body {
 }
 
 #powered-by {
-  font-size: 2vw;
+  font-size: 16px;
   margin: 5% 0;
 }
 
@@ -56,13 +56,13 @@ body {
 }
 
 h1 {
-  margin: 0 auto;
-  font-size: 12vw;
+  margin: 12% auto 0 auto;
+  font-size: 68px;
 }
 
 h6 {
   margin-bottom: 7%;
-  font-size: 3vw;
+  font-size: 20px;
 }
 
 .main {
@@ -91,11 +91,11 @@ h6 {
 }
 
 .song-search-button {
-  margin-right: 3%;
+  margin-right: 2%;
 }
 
 .lyrics-search-button {
-  margin-left: 3%;
+  margin-left: 2%;
 }
 
 #search-form {

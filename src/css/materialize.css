@@ -5532,10 +5532,10 @@ button.btn-floating {
 }
 /* wesbuttonsizing */
 .btn-large {
-  height: 75px;
-  line-height: 75px;
-  font-size: 28px;
-  padding: 0 75px;
+  height: 65px;
+  line-height: 65px;
+  font-size: 22px;
+  padding: 0 50px;
 }
 
 .btn-large i {
@@ -6155,7 +6155,7 @@ textarea.materialize-textarea {
   outline: none;
   height: 3rem;
   width: 100%;
-  font-size: 5vw;
+  font-size: 32px;
   margin: 0 0 8px 0;
   padding: 3% 0;
   text-align: center;
