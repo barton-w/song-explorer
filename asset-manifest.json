@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/song-explorer/static/css/main.3604d720.chunk.css",
-    "main.js": "/song-explorer/static/js/main.a1b6136c.chunk.js",
-    "main.js.map": "/song-explorer/static/js/main.a1b6136c.chunk.js.map",
+    "main.css": "/song-explorer/static/css/main.64bb8755.chunk.css",
+    "main.js": "/song-explorer/static/js/main.abf3ff86.chunk.js",
+    "main.js.map": "/song-explorer/static/js/main.abf3ff86.chunk.js.map",
     "runtime~main.js": "/song-explorer/static/js/runtime~main.66190786.js",
     "runtime~main.js.map": "/song-explorer/static/js/runtime~main.66190786.js.map",
     "static/js/2.28cdb552.chunk.js": "/song-explorer/static/js/2.28cdb552.chunk.js",
     "static/js/2.28cdb552.chunk.js.map": "/song-explorer/static/js/2.28cdb552.chunk.js.map",
     "index.html": "/song-explorer/index.html",
-    "precache-manifest.2cbf9f2c462962fab6707836cb83b9c7.js": "/song-explorer/precache-manifest.2cbf9f2c462962fab6707836cb83b9c7.js",
+    "precache-manifest.cc9aee803b0b903d44b2158300295b6d.js": "/song-explorer/precache-manifest.cc9aee803b0b903d44b2158300295b6d.js",
     "service-worker.js": "/song-explorer/service-worker.js",
-    "static/css/main.3604d720.chunk.css.map": "/song-explorer/static/css/main.3604d720.chunk.css.map",
-    "static/media/main.css": "/song-explorer/static/media/genius-logo.73f56e29.png"
+    "static/css/main.64bb8755.chunk.css.map": "/song-explorer/static/css/main.64bb8755.chunk.css.map",
+    "static/media/main.css": "/song-explorer/static/media/spotify-button.248a0a95.png"
   }
 }
