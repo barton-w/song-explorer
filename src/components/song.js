@@ -8,20 +8,32 @@ export default function Song(props) {
   }, [props.track])
   return (
     <div className="song">
-      <h3>{props.track.name}</h3>
-      <h4>{artistDisplayName(props.track.artist)}</h4>
-      <a href={props.track.urls.spotify}>Listen on Spotify</a>
+      <h5 id="song-title">{props.track.name}</h5>
+      <h6 id="song-artist">{artistDisplayName(props.track.artist)}</h6>
       <img src={props.track.image.url} alt={props.track.name}/>
+      <div className="song-actions">
+        <button
+          id={
+            showSongFeatures ?
+            "active" : "inactive"
+          }
+          className="waves-effect waves-light btn-large show-features-button"
+          onClick={() => {
+            setShowSongFeatures(!showSongFeatures)
+          }}
+          >Song Features</button>
+        <a
+          id="listen-on-spotify"
+          target="_blank"
+          rel="noopener noreferrer"
+          href={props.track.urls.spotify}
+          ></a>
+      </div>
       {
         typeof props.track.lyrics_url !== "undefined" ?
         <a href={props.track.lyrics_url}>See the Lyrics</a>
         : null
       }
-      <button
-        onClick={() => {
-          setShowSongFeatures(!showSongFeatures)
-        }}
-        >Song Features</button>
       {
         showSongFeatures ?
         <SongFeatures

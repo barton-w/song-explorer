@@ -15,7 +15,6 @@ export default function SongFeatures(props) {
   }, [props.id])
   return (
     <div className="song-features">
-      <h5>SONG FEATURES</h5>
       {
         loading ?
         <h2>LOADING</h2>
@@ -89,18 +88,6 @@ export default function SongFeatures(props) {
               </tr>
             </tbody>
           </table>
-          {/* <p>{describeAcousticness(songFeatures.features.acousticness)}</p> */}
-          {/* <p>{describeDanceability(songFeatures.features.danceability)}</p> */}
-          {/* <p>{describeDuration(songFeatures.features.duration_ms)}</p> */}
-          {/* <p>{describeEnergy(songFeatures.features.energy)}</p> */}
-          {/* <p>{describeInstrumentalness(songFeatures.features.instrumentalness)}</p> */}
-          {/* <p>{describeKey(songFeatures.features.key, songFeatures.features.mode)}</p> */}
-          {/* <p>{describeLiveness(songFeatures.features.liveness)}</p>
-          <p>{describeLoudness(songFeatures.features.loudness)}</p>
-          <p>{describeSpeechiness(songFeatures.features.speechiness)}</p> */}
-          {/* <p>{describeTempo(songFeatures.features.tempo)}</p> */}
-          {/* <p>{describeTimeSignature(songFeatures.features.time_signature)}</p> */}
-          {/* <p>{describeValence(songFeatures.features.valence)}</p> */}
         </div>
       }
     </div>
