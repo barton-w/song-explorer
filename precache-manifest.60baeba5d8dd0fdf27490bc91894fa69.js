@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4e5f0dc9b45fdda524e43bb74216b93e",
+    "revision": "9c4b90a5d7581e9a976d7a17ee0b2ca4",
     "url": "/song-explorer/index.html"
   },
   {
-    "revision": "a339e80da0e964dd230b",
-    "url": "/song-explorer/static/css/main.16fe7864.chunk.css"
+    "revision": "8c4b8f4a055ef3fb2720",
+    "url": "/song-explorer/static/css/main.b3a9c32a.chunk.css"
   },
   {
     "revision": "17ec2908c9f3b4a6b6c8",
     "url": "/song-explorer/static/js/2.28cdb552.chunk.js"
   },
   {
-    "revision": "a339e80da0e964dd230b",
-    "url": "/song-explorer/static/js/main.3e8e1f89.chunk.js"
+    "revision": "8c4b8f4a055ef3fb2720",
+    "url": "/song-explorer/static/js/main.7be35494.chunk.js"
   },
   {
     "revision": "a1c16af78ff1348b3014",
