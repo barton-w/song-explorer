@@ -5534,7 +5534,7 @@ button.btn-floating {
 .btn-large {
   height: 65px;
   line-height: 65px;
-  font-size: 22px;
+  font-size: 16px;
   padding: 0 50px;
 }
 
@@ -6155,8 +6155,8 @@ textarea.materialize-textarea {
   outline: none;
   height: 3rem;
   width: 100%;
-  font-size: 32px;
-  margin: 0 0 8px 0;
+  font-size: 38px;
+  margin: 6px 0 6px 0;
   padding: 3% 0;
   text-align: center;
   color: var(--white);
