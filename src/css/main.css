@@ -143,8 +143,12 @@ h6 {
   font-size: 16px;
   padding: 0;
   margin: 0;
-  /* padding: 0 100px; */
-  /* background-color: var(--gold);
-  color: var(--gray); */
-  /* border: none; */
+}
+
+#lyrics {
+  float: right;
+  color: var(--white);
+  text-align: right;
+  font-size: 18px;
+  margin: 0 6% 0 0;
 }

@@ -31,7 +31,12 @@ export default function Song(props) {
       </div>
       {
         typeof props.track.lyrics_url !== "undefined" ?
-        <a href={props.track.lyrics_url}>See the Lyrics</a>
+          <a
+            id="lyrics"
+            target="_blank"
+            rel="noopener noreferrer"
+            href={props.track.lyrics_url}
+          >See the Lyrics</a>
         : null
       }
       {
