@@ -49,7 +49,7 @@ export default function SongFeatures(props) {
           <table className="striped">
             <thead>
               <tr>
-                <th>Musical Features</th>
+                <th>Song Features</th>
                 <th></th>
               </tr>
             </thead>

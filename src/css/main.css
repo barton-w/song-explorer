@@ -79,6 +79,12 @@ h6 {
   border: 1px solid var(--spotify-green-light);
 }
 
+#inactive {
+  color: var(--white);
+  background-color: transparent;
+  border: 1px solid var(--white);
+}
+
 #search-button {
   height: 75px;
   line-height: 75px;
