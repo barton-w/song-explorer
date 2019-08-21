@@ -12,10 +12,19 @@ export default function Search() {
   }
   const handleSubmit = (event) => {
     event.preventDefault()
-    fetch(base_url + endpoint + formSong)
-    .then(response => response.json())
-    .then(json => setSongResults(json))
-    .catch(error => console.log(error))
+    //Set default if no form input
+    if (formSong === "") {
+      setSong("amzy")
+      fetch(base_url + endpoint + "amzy")
+      .then(response => response.json())
+      .then(json => setSongResults(json))
+      .catch(error => console.log(error))
+    } else {
+      fetch(base_url + endpoint + formSong)
+      .then(response => response.json())
+      .then(json => setSongResults(json))
+      .catch(error => console.log(error))
+    }
   }
   return (
     <div className="search">

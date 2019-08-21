@@ -19,6 +19,7 @@ export default function App() {
         <div id="spotify-logo"></div>
         <div id="genius-logo"></div>
       </div>
+      <div id="se-logo"></div>
       <h1>Song Explorer</h1>
       <h6>Search by song or lyrics and discover song-data like key, tempo, danceability, energy, and more</h6>
       <Search />
