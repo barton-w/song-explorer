@@ -13,7 +13,7 @@ export default function Search() {
   }
   const handleSubmit = (event) => {
     event.preventDefault()
-    setLoading(true)
+    // setLoading(true)
     //Set default if no form input
     if (formSong === "") {
       setSong("amzy")
@@ -21,7 +21,7 @@ export default function Search() {
       .then(response => response.json())
       .then((json) => {
         setSongResults(json)
-        setLoading(false)
+        // setLoading(false)
       })
       .catch(error => console.log(error))
     } else {
@@ -33,7 +33,7 @@ export default function Search() {
       .then(response => response.json())
       .then((json) => {
         setSongResults(json)
-        setLoading(false)
+        // setLoading(false)
       })
       .catch(error => console.log(error))
     }
