@@ -37,11 +37,6 @@ export default function Search() {
       })
       .catch((error) => {
         console.log(error)
-        let response = {
-          message: "No results found. Please change your search and try again."
-        }
-        setSongResults(response.json())
-        setLoading(false)
       })
     }
   }
