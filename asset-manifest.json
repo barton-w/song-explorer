@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/song-explorer/static/css/main.53560a8e.chunk.css",
+    "main.css": "/song-explorer/static/css/main.e7d61b31.chunk.css",
     "main.js": "/song-explorer/static/js/main.3e23c61d.chunk.js",
     "main.js.map": "/song-explorer/static/js/main.3e23c61d.chunk.js.map",
     "runtime~main.js": "/song-explorer/static/js/runtime~main.66190786.js",
@@ -8,9 +8,9 @@
     "static/js/2.28cdb552.chunk.js": "/song-explorer/static/js/2.28cdb552.chunk.js",
     "static/js/2.28cdb552.chunk.js.map": "/song-explorer/static/js/2.28cdb552.chunk.js.map",
     "index.html": "/song-explorer/index.html",
-    "precache-manifest.9db3f93eb82faadabb8627fbf2dce2b8.js": "/song-explorer/precache-manifest.9db3f93eb82faadabb8627fbf2dce2b8.js",
+    "precache-manifest.0eb03483d981daeb8d64a52e57c7d8b6.js": "/song-explorer/precache-manifest.0eb03483d981daeb8d64a52e57c7d8b6.js",
     "service-worker.js": "/song-explorer/service-worker.js",
-    "static/css/main.53560a8e.chunk.css.map": "/song-explorer/static/css/main.53560a8e.chunk.css.map",
+    "static/css/main.e7d61b31.chunk.css.map": "/song-explorer/static/css/main.e7d61b31.chunk.css.map",
     "static/media/main.css": "/song-explorer/static/media/spotify-button.248a0a95.png"
   }
 }
