@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "40566336137ffb781151955865d92166",
+    "revision": "bb6a928a330979885e075baba54c5f56",
     "url": "/song-explorer/index.html"
   },
   {
