@@ -1,6 +1,5 @@
 # Song Explorer
-![](https://github.com/barton-w/song-explorer/blob/master/public/se-logo.png)
-<img src="https://github.com/barton-w/song-explorer/blob/master/public/se-logo.png" alt="Song Explorer" width="100px" height="200px">
+<img src="https://github.com/barton-w/song-explorer/blob/master/public/se-logo.png" alt="Song Explorer" width="200px" height="200px">
 
 ## [Live on GitHub Pages](https://barton-w.github.io/song-explorer/)
 
