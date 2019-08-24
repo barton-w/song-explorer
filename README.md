@@ -1,4 +1,5 @@
 # Song Explorer
+![alt text][logo]
 [logo]: https://github.com/barton-w/song-explorer/blob/master/public/se-logo.png
 
 ## [Live on GitHub Pages](https://barton-w.github.io/song-explorer/)
